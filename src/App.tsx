@@ -89,7 +89,7 @@ const App: React.FunctionComponent = () => {
         <InputArea setReleaseName={setReleaseName} startedTyping={releaseName.length > 0}/>
         <ContentArea>
           <ReleaseArea releases={releases} setSelectedRelease={setSelectedRelease} lyricsPresent={lyrics.length > 0} />
-          <LyricsArea lyrics={lyrics} />
+          <LyricsArea lyrics={lyrics} setLyrics={setLyrics} />
         </ContentArea>
       </AppStyled>
     </ThemeProvider>
