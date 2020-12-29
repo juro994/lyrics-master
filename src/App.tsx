@@ -35,6 +35,7 @@ const HeaderStyled = styled.h1`
 
 const ContentArea = styled.div`
   display: flex;
+  flex-direction: row;
 `
 
 const AppStyled = styled.div`

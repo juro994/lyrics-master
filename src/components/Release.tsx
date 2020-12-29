@@ -29,7 +29,7 @@ const mapArtistNames = (release: IRelease): string => {
 
 const Release: React.FunctionComponent<IProps> = ({ release, setSelectedRelease }) => {
   return (
-    <ReleaseStyled onClick={(e) => setSelectedRelease(release)}>
+    <ReleaseStyled onClick={(e) => {setSelectedRelease(release); console.log(e)}}>
       <Song title={release.title} />
       <Artist name={mapArtistNames(release)} />
     </ReleaseStyled>

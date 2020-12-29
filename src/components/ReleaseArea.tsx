@@ -23,6 +23,7 @@ const ReleaseAreaStyled = styled.div<IStyleProps>`
     display: flex;
     align-items: center;
     flex-direction: column;
+    flex-grow: 1;
 `
 
 const ReleaseArea: React.FunctionComponent<IProps> = ({ releases, setSelectedRelease, lyricsPresent}) => {

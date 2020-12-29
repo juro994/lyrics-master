@@ -21,6 +21,7 @@ const LyricsAreaStyled = styled.div<any>`
     display: ${props => props.lyricsPresent ? "flex" : "none"};
     align-items: center;
     flex-direction: column;
+    flex-grow: 2;
 `
 
 const LyricsArea: React.FunctionComponent<IProps> = ({ lyrics, setLyrics }) => {

@@ -17,3 +17,12 @@ I am using [styled components](https://styled-components.com/) to leverage the p
 
 ## Running the project
 To run the project locally, just run the `yarn start`.
+
+## Screenshots
+Start page:
+![alt text][start_page]
+Lyrics found:
+![alt text][lyrics_found]
+
+[start_page]: start_page.png "Start page"
+[lyrics_found]: lyrics_found.png "Lyrics have been found"
